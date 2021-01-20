@@ -20,7 +20,7 @@
 
 #define VSYNC_DEV_PREFIX "/sys/devices/"
 #define VSYNC_DEV_MIDDLE "14850000.sysmmu/14850000.sysmmu/"
-#define VSYNC_DEV_NAME  "14830000.decon_fb/vsync"
+#define VSYNC_DEV_NAME  "13960000.decon_f/vsync"
 
 #define FIMD_WORD_SIZE_BYTES   16
 #define FIMD_BURSTLEN   16
