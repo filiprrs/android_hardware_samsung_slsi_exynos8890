@@ -93,7 +93,7 @@ uint64_t gralloc_select_format(int req_format, int usage, int is_compressible)
 #endif
 	new_format |= GRALLOC_ARM_INTFMT_AFBC;
 
-	ALOGD("Returned iterated format: 0x%llX", new_format);
+	ALOGD("Returned iterated format: 0x%llX", (long long)new_format);
 
 	return new_format;
 }
