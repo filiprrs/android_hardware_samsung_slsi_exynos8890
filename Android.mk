@@ -25,6 +25,11 @@ exynos8890_dirs += \
 	libkeymaster
 endif
 
+ifeq ($(BOARD_USES_EXYNOS8890_GRALLOC), true)
+exynos8890_dirs += \
+	gralloc
+endif
+
 #ifeq ($(BOARD_BACK_CAMERA_USES_EXTERNAL_CAMERA), true)
 #exynos8890_dirs += \
 #	libcamera_external
